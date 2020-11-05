@@ -1,0 +1,6 @@
+<h3 appHighlight>{{ product.title | uppercase}} #{{ product.id }}</h3>
+<img [src]="product.image" alt="">
+<p>{{ product.price | currency }}</p>
+<p>{{ today | date:'medium' }}</p>
+<p>{{ product.description | slice:0:40}}</p>
+<button (click)="addCart()">Add to cart</button>
