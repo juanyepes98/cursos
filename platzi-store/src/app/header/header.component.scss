@@ -1,0 +1,8 @@
+nav > a {
+  padding: 5px;
+  text-decoration: none;
+}
+nav > a.active {
+  background: #000000;
+  color: aliceblue;
+}
